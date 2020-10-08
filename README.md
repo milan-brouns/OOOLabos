@@ -19,6 +19,7 @@ voeg een nieuwe src folder toe
 linker klik op de die src folder
 mark Directory as
 source root
+
 en het programeren kan beginnen
 
 INFO: 
