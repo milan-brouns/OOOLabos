@@ -8,7 +8,7 @@ Project importeren in intelij:
 file
 new
 project from version control...
-add the url: 
+add the url: https://github.com/milan-brouns/OOOLabos.git
 selecteer waar da je het wilt opslaagen en dan..
 clone
 run de refecoty shop deze zou moete runnen 
