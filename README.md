@@ -5,19 +5,19 @@ in deze OOOLabos omgeving kunnen we alle labos af werken zonder telkens elkaar t
 voor dat jullie de code down loaden zorg er zeker voor dat je JDK8 geinstaleerd hebt.
 
 Project importeren in intelij:
-file
-new
-project from version control...
-add the url: https://github.com/milan-brouns/OOOLabos.git
-selecteer waar da je het wilt opslaagen en dan..
-clone
+file -> 
+new -> 
+project from version control... -> 
+add the url: https://github.com/milan-brouns/OOOLabos.git -> 
+selecteer waar da je het wilt opslaagen en dan.. -> 
+clone -> 
 run de refecoty shop deze zou moete runnen 
 
 nieuw labo creëren:
-om een nieuw labo te creëren moet je gewoon een nieuwe directory maken
-voeg een nieuwe src folder toe 
-linker klik op de die src folder
-mark Directory as
+om een nieuw labo te creëren moet je gewoon een nieuwe directory maken -> 
+voeg een nieuwe src folder toe  -> 
+linker klik op de die src folder -> 
+mark Directory as -> 
 source root
 
 en het programeren kan beginnen
