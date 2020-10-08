@@ -9,7 +9,7 @@ file ->
 new -> 
 project from version control... -> 
 add the url: https://github.com/milan-brouns/OOOLabos.git -> 
-selecteer waar da je het wilt opslaagen en dan.. -> 
+selecteer waar da je het wilt opslaagen -> 
 clone -> 
 run de refecoty shop deze zou moete runnen 
 
