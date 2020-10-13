@@ -1,5 +1,5 @@
-.idea
-.iml
-.out
+.idea/
+*.iml
+.out/
 # Project exclude paths
 /out/
