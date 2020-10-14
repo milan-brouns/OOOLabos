@@ -1,7 +1,7 @@
 package vieuw.ui;
 
 
-import domain.Product;
+import domain.model.Product;
 import domain.model.*;
 
 import javax.swing.*;
@@ -29,7 +29,14 @@ public class ShopUi {
     }
 
     public static void addProduct(Shop shop) {
-        String id = JOptionPane.showInputDialog("Enter the id:");
+        int idInt = 0;
+        for (Product product: shop.getProducten()){
+            int idProduct= Integer.parseInt(product.getId());
+            if (idInt<idProduct){
+                idInt = idProduct;
+            }
+        }idInt +=1;
+        String id = new String (String.valueOf(idInt));
         String titel = JOptionPane.showInputDialog("titel");
         String type = JOptionPane.showInputDialog("M for movies, G for games, CD for CD");
 

@@ -1,4 +1,4 @@
-package domain;
+package domain.model;
 
 public abstract class Product {
     private String id, titel;

@@ -1,6 +1,6 @@
 package domain.model;
 
-import domain.Product;
+import domain.model.Product;
 import domain.model.pricestrategy.FiveEuroPlusTwoAfterThreeDays;
 
 public class Movie extends Product {

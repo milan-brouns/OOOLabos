@@ -1,6 +1,6 @@
 package domain.model;
 
-import domain.Product;
+import domain.model.Product;
 import domain.model.pricestrategy.ThreeEuroADay;
 
 public class Game extends Product {
