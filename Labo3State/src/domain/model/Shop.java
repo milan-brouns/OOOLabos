@@ -82,7 +82,9 @@ public class Shop {
         file.createNewFile();
         FileWriter fileWriter = new FileWriter(filenaam);
         for (Product p : producten) {
-            fileWriter.write(p.getClass().getSimpleName() + "," + p.getId() + "," + p.getTitel() + "\n");
+            if (p.state != p.getVerwijderdState()) {
+                fileWriter.write(p.getClass().getSimpleName() + "," + p.getId() + "," + p.getTitel() + "\n");
+            }
         }
         fileWriter.close();
     }

@@ -53,4 +53,16 @@ public abstract class Product {
     public Verwijderd getVerwijderdState() {
         return verwijderd;
     }
+    public void uitlenen(){
+        state.uitlenen(this);
+    }
+    public void terugbrengen(Boolean beschadigt){
+        state.terugbrengen(this,beschadigt);
+    }
+    public void herstellen(){
+        state.herstellen(this);
+    }
+    public void verwijderen(){
+        state.verwijderen(this);
+    }
 }
