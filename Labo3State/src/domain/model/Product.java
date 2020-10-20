@@ -33,4 +33,24 @@ public abstract class Product {
     public double getPrice (int days){
         return priceStrategy.getPrice(days);
     }
+
+    public void setState(State state) {
+        this.state = state;
+    }
+
+    public Uitleenbaar getUitleenbaarState() {
+        return uitleenbaar;
+    }
+
+    public Uitgeleend getUitgeleendState() {
+        return uitgeleend;
+    }
+
+    public Beschadigd getBeschadigdState() {
+        return beschadigd;
+    }
+
+    public Verwijderd getVerwijderdState() {
+        return verwijderd;
+    }
 }
