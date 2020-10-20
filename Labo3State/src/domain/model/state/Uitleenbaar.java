@@ -1,4 +1,16 @@
 package domain.model.state;
 
-public class Uitleenbaar extends States {
+import domain.model.Product;
+
+public class Uitleenbaar extends State {
+
+    public Uitleenbaar(Product product) {
+        this.product =product;
+
+    }
+
+    @Override
+    public void uitlenen(Product product) {
+
+    }
 }

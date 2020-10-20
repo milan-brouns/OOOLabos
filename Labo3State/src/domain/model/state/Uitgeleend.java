@@ -1,4 +1,10 @@
 package domain.model.state;
 
-public class Uitgeleend extends States {
+import domain.model.Product;
+
+public class Uitgeleend extends State {
+
+    public Uitgeleend (Product product){
+        this.product =product;
+    }
 }
