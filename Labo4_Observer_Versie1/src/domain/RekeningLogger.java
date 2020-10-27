@@ -3,7 +3,7 @@ package domain;
 import java.util.Observable;
 import java.util.Observer;
 
-public class RekeningLogger implements Observer, DisplayElement {
+public class RekeningLogger implements Observer, DisplayElement2 {
     private Bank bank;
 
     public RekeningLogger(Observable observable){

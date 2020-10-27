@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.Observable;
 import java.util.Observer;
 
-public class Auditor implements Observer, DisplayElement {
+public class Auditor implements Observer, DisplayElement2 {
     private Bank bank;
 
     public Auditor(Observable observable){
